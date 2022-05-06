@@ -11,7 +11,7 @@ const Item = ({ item }) => {
             <p>Quantity: {quantity}</p>
             <p><small>{description}</small></p>
             <p>Supplier Name: {suppliername}</p>
-            <button>Stock Update</button>
+            <button className='btn btn-dark'>Stock Update</button>
         </div>
     );
 };
