@@ -1,0 +1,10 @@
+img {
+    width: 400px;
+}
+
+.item {
+    border: 1px solid gold;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
