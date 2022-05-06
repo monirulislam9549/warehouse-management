@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Lenovo A8",
+        "description": "lorem ipsum",
+        "price": "1000",
+        "suppliername": "Oppo",
+        "quantity": "10",
+        "img": "https://i.ibb.co/B4NfWK6/lenovo-a8-2020-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sony",
+        "description": "lorem ipsum",
+        "price": "1000",
+        "suppliername": "Oppo",
+        "quantity": "10",
+        "img": "https://i.ibb.co/FHbRnQG/mike-meyers-r-GBtpa-BQ3-LA-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Samsung S21",
+        "description": "lorem ipsum",
+        "price": "1000",
+        "suppliername": "Oppo",
+        "quantity": "10",
+        "img": "https://i.ibb.co/Qpjp445/anh-nhat-u-Cq-Ma-s-JDg-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Iphone 13 pro",
+        "description": "lorem ipsum",
+        "price": "1000",
+        "suppliername": "Oppo",
+        "quantity": "10",
+        "img": "https://i.ibb.co/pWfHDPd/rahul-chakraborty-0pc8-HIIICs-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "name": "OnePlus 7",
+        "description": "lorem ipsum",
+        "price": "1000",
+        "suppliername": "Oppo",
+        "quantity": "10",
+        "img": "https://i.ibb.co/h21WfX2/yu-hai-NOb679a5-Lv4-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Google Pixem 6",
+        "description": "lorem ipsum",
+        "price": "1000",
+        "suppliername": "Oppo",
+        "quantity": "10",
+        "img": "https://i.ibb.co/gTsqqFR/triyansh-gill-PE97-QBw-LHc-unsplash.jpg"
+    }
+]
