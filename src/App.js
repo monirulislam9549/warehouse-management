@@ -11,6 +11,8 @@ import Item from './Pages/Item/Item';
 import ItemDetail from './Pages/ItemDetail/ItemDetail';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import Register from './Pages/Register/Register';
+import Inventory from './Pages/Inventory/Inventory';
+import RequiredAuth from './Pages/RequiredAuth/RequiredAuth';
 
 function App() {
   return (
@@ -21,6 +23,11 @@ function App() {
         <Route path='/home' element={<Home></Home>}> </Route>
         <Route path='/item/:itemId' element={<ItemDetail></ItemDetail>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='/inventory' element={
+          <RequiredAuth>
+            <Inventory></Inventory>
+          </RequiredAuth>
+        }></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
