@@ -10,6 +10,7 @@ import About from './Pages/About/About';
 import Item from './Pages/Item/Item';
 import ItemDetail from './Pages/ItemDetail/ItemDetail';
 import NotFound from './Pages/Shared/NotFound/NotFound';
+import Register from './Pages/Register/Register';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route path='*' element={<NotFound></NotFound>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
