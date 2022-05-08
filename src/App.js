@@ -13,6 +13,8 @@ import NotFound from './Pages/Shared/NotFound/NotFound';
 import Register from './Pages/Register/Register';
 import Inventory from './Pages/Inventory/Inventory';
 import RequiredAuth from './Pages/RequiredAuth/RequiredAuth';
+import AddService from './Pages/AddService/AddService';
+import AddItem from './Pages/AddItem/AddItem';
 
 function App() {
   return (
@@ -28,6 +30,12 @@ function App() {
             <Inventory></Inventory>
           </RequiredAuth>
         }></Route>
+        <Route path='/additem' element={
+          <RequiredAuth>
+            <AddItem></AddItem>
+          </RequiredAuth>
+        }></Route>
+
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
