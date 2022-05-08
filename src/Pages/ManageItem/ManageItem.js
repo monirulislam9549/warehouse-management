@@ -6,7 +6,7 @@ const ManageItem = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure?');
         if (proceed) {
-            const url = `http://localhost:5000/mobile/${id}`;
+            const url = `https://fierce-brushlands-16042.herokuapp.com/mobile/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

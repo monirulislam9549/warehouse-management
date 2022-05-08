@@ -5,7 +5,7 @@ const ItemDetail = () => {
     const { itemId } = useParams()
     const [item, setItem] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/mobile/${itemId}`;
+        const url = `https://fierce-brushlands-16042.herokuapp.com/mobile/${itemId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setItem(data))

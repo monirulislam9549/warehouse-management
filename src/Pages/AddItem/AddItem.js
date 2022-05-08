@@ -6,7 +6,7 @@ const AddItem = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
-        const url = `http://localhost:5000/mobile`;
+        const url = `https://fierce-brushlands-16042.herokuapp.com/mobile`;
         fetch(url, {
             method: 'POST',
             headers: {

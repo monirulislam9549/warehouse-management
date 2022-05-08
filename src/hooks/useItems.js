@@ -4,7 +4,7 @@ const useItems = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/mobile')
+        fetch('https://fierce-brushlands-16042.herokuapp.com/mobile')
             .then(res => res.json())
             .then(data => setItems(data))
     }, [])
