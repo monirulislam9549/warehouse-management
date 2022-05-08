@@ -13,8 +13,9 @@ import NotFound from './Pages/Shared/NotFound/NotFound';
 import Register from './Pages/Register/Register';
 import Inventory from './Pages/Inventory/Inventory';
 import RequiredAuth from './Pages/RequiredAuth/RequiredAuth';
-import AddService from './Pages/AddService/AddService';
 import AddItem from './Pages/AddItem/AddItem';
+import ManageItem from './Pages/ManageItem/ManageItem';
+import MyItem from './Pages/MyItem/MyItem';
 
 function App() {
   return (
@@ -25,14 +26,27 @@ function App() {
         <Route path='/home' element={<Home></Home>}> </Route>
         <Route path='/item/:itemId' element={<ItemDetail></ItemDetail>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+
         <Route path='/inventory' element={
           <RequiredAuth>
             <Inventory></Inventory>
           </RequiredAuth>
         }></Route>
+
         <Route path='/additem' element={
           <RequiredAuth>
             <AddItem></AddItem>
+          </RequiredAuth>
+        }></Route>
+
+        <Route path='/manageitem' element={
+          <RequiredAuth>
+            <ManageItem></ManageItem>
+          </RequiredAuth>
+        }></Route>
+        <Route path='/myitem' element={
+          <RequiredAuth>
+            <MyItem></MyItem>
           </RequiredAuth>
         }></Route>
 
