@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 const ItemDetail = () => {
     const { itemId } = useParams()
+    const [item, setItem] = useState({});
+    useEffect(() => {
+        const url = `http://localhost:5000/mobile/${itemId}`;
+        fetch(url)
+            .then(res => res.json())
+            .then(data => setItem(data))
+    }, [])
     return (
         <div>
-            <h1>This is Service Detail :{itemId}</h1>
+            <h1>This is Service Detail :{item.name}</h1>
             <div className='text-center'>
                 <Link to={'/inventory'}>
                     <button className='btn btn-primary'>Inventory Item</button>
