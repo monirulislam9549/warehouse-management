@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "name": "Lenovo A8",
         "description": "Oppo's primary partners and chip suppliers include the US chip giant, Qualcomm, Taiwan based MediaTek, and South Korea's Samsung.",
         "price": "1000",
@@ -9,7 +8,6 @@
         "img": "https://i.ibb.co/B4NfWK6/lenovo-a8-2020-1.jpg"
     },
     {
-        "id": 2,
         "name": "Sony",
         "description": "KRY International is an authorized distributor of Sony Corporation, stocking a wide selection of electronic components and supporting hundreds of reference designs.",
         "price": "1000",
@@ -18,7 +16,6 @@
         "img": "https://i.ibb.co/R7YbwWC/xiaomi-redmi-note11-1.jpg"
     },
     {
-        "id": 3,
         "name": "Samsung S21",
         "description": "We are continually working towards a sustainable business ecosystem based on a philosophy of fairness, openness, and co-prosperity. We provide support to our suppliers to operate in adherence to global laws and standards to fulfill its environmental and social responsibilities. ",
         "price": "1000",
@@ -27,7 +24,6 @@
         "img": "https://i.ibb.co/ZG9BKj1/samsung-galaxy-note20-ultra-1.jpg"
     },
     {
-        "id": 4,
         "name": "Iphone 13 pro",
         "description": "We are a leading wholesale Apple iPhone distributor. Contact us for all your Apple needs. Multiple locations, portside shipping points + huge inventory, to provide rapid delivery.",
         "price": "1000",
@@ -36,7 +32,6 @@
         "img": "https://i.ibb.co/m0wBG5p/oneplus-nord-ce-2-lite-5g-1.jpg"
     },
     {
-        "id": 5,
         "name": "OnePlus 7",
         "description": "OnePlus creates beautifully designed products with premium build quality & brings the best technology to users around the world.",
         "price": "1000",
@@ -45,7 +40,6 @@
         "img": "https://i.ibb.co/kGw7BzP/sony-xperia-pro-i-1.jpg"
     },
     {
-        "id": 6,
         "name": "Google Pixel 6",
         "description": "Showroom/google Pixel, Showroom/google Pixel Suppliers Directory - Find variety ... Manufacturers, Companies from around the World at google pixel ,google.",
         "price": "1000",
